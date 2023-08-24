@@ -19,6 +19,7 @@ The objective is to write a layered testbench for a **Asynchronous D Flip-Flop**
 + Testbench is used to check the functional correctness of the Design Under Test (DUT) by generating and driving a predefined input sequence to a design, capturing the design output and comparing with-respect-to expected output.
 + SystemVerilog has something different than the normal testbenches, called a ‘Layered Testbench’. The overall idea behind a layered testbench is to create an environment that is easy to adopt, follow and verify.
 + A testbench in SystemVerilog is layered because the process of verification is distributed into segments, each performing different tasks.
++ Functional coverage is a user-defined metric that measures  how much of the design specification, as enumerated by  features in the test plan, has been exercised.
 
 <img width="421" alt="image" src="https://github.com/Veda1809/Layered_tb_for_DFF/assets/142098395/f2c233ee-3992-410f-b8d4-bef3669d5b34">
 
