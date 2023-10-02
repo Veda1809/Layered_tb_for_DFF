@@ -10,18 +10,18 @@ class transaction;
     $display("*************************");
     $display("D = %0d",D);
     $display("reset = %0d, clk= %0d",reset,clk);
-	$display("Q = %0d",Q); 
+    $display("Q = %0d",Q); 
     $display("*************************");
   endfunction
   
   covergroup cov;
     a: coverpoint D
     {
-      bins b1[]= {[0:7]};
+	    bins b1[]= {0,1};
     }
     b: coverpoint reset
     {
-      bins b2[]={[0:1]};
+	    bins b2[]={0,1};
     }
     c:cross a,b;
   endgroup
